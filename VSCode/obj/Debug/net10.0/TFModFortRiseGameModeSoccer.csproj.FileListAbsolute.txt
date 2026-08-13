@@ -11,3 +11,4 @@ D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModF
 D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.csproj.CoreCompileInputs.cache
 D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.dll
 D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.pdb
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.sourcelink.json

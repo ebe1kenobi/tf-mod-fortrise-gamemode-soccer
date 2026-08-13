@@ -48,7 +48,10 @@ namespace TFModFortRiseGameModeSoccer
       int fromRight = 0;
       int spawned = 0;
 
-      for (int i = 0; i < 4; i++)
+      // Le nombre d'emplacements du JEU, et non quatre : WiderSet le porte a huit, et
+      // en fixer quatre ici laissait les joueurs 5 a 8 sans archer sur le terrain -
+      // ils existaient dans la partie sans jamais apparaitre.
+      for (int i = 0; i < TFGame.Players.Length; i++)
       {
         if (!session.ShouldSpawn(i))
         {

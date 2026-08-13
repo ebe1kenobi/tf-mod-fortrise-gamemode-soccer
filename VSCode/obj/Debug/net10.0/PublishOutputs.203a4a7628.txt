@@ -1,0 +1,6 @@
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\publish\Content\Atlas\ball.png
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\publish\Content\Atlas\gamemode.png
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\publish\meta.json
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\publish\TFModFortRiseGameModeSoccer.dll
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\publish\TFModFortRiseGameModeSoccer.deps.json
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\publish\TFModFortRiseGameModeSoccer.pdb

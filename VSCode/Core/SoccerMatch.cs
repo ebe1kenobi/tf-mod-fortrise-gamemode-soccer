@@ -25,8 +25,14 @@ namespace TFModFortRiseGameModeSoccer
     public static Goal LeftGoal;
     public static Goal RightGoal;
 
-    /// <summary>Images d'appui sur le bouton de tir, par archer.</summary>
-    private static readonly float[] charge = new float[4];
+    /// <summary>
+    /// Images d'appui sur le bouton de tir, par archer.
+    ///
+    /// Huit et non quatre : WiderSet porte la partie a huit joueurs, et ce tableau est
+    /// indexe par PlayerIndex. A quatre, le cinquieme joueur qui touchait le ballon
+    /// faisait lever une IndexOutOfRange en pleine manche.
+    /// </summary>
+    private static readonly float[] charge = new float[8];
 
     /// <summary>Equipe qui vient de marquer, ou Neutral tant que rien n'est marque.</summary>
     public static Allegiance Scorer = Allegiance.Neutral;
