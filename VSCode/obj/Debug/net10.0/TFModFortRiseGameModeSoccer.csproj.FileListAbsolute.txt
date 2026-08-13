@@ -1,0 +1,13 @@
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\Content\Atlas\ball.png
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\Content\Atlas\gamemode.png
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\meta.json
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\TFModFortRiseGameModeSoccer.deps.json
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\TFModFortRiseGameModeSoccer.dll
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\bin\Debug\net10.0\TFModFortRiseGameModeSoccer.pdb
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.csproj.AssemblyReference.cache
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.GeneratedMSBuildEditorConfig.editorconfig
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.AssemblyInfoInputs.cache
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.AssemblyInfo.cs
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.csproj.CoreCompileInputs.cache
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.dll
+D:\__dev\code\FR5tf-mod-fortrise-gamemode-soccer\VSCode\obj\Debug\net10.0\TFModFortRiseGameModeSoccer.pdb
