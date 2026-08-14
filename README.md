@@ -15,6 +15,8 @@ A mod for **FortRise 5** (>= 5.3.3).
 
 ## Playing
 
+<img width="687" height="670" alt="image" src="https://github.com/user-attachments/assets/1bf29855-6b34-454b-87b9-3854fd80286d" />
+
 **SOCCER** joins the list of versus modes, next to Last Man Standing and Team
 Deathmatch. It is a **team mode**: the game splits the archers into blue and red on the
 select screen, and counts points per team.
