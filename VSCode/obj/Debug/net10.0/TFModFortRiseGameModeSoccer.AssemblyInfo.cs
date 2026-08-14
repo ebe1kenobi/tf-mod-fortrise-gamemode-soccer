@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TFModFortRiseGameModeSoccer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74bbc249088113b38e174adb213ebd91eca8bb78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+299cc8b3843531244beb186393c77071d4702822")]
 [assembly: System.Reflection.AssemblyProductAttribute("TFModFortRiseGameModeSoccer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TFModFortRiseGameModeSoccer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

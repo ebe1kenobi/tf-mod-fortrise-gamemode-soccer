@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rc1mvsDcchQ=",
+  "dgSpecHash": "knxjsTWWMeE=",
   "success": true,
-  "projectFilePath": "D:\\__dev\\code\\FR5tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj",
+  "projectFilePath": "D:\\__dev\\code\\tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eric\\.nuget\\packages\\fortrise.configuration\\1.5.6\\fortrise.configuration.1.5.6.nupkg.sha512"
   ],

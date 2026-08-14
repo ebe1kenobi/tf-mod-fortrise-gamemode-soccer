@@ -22,6 +22,10 @@ select screen, and counts points per team.
 **Two players are enough** - a team of one is still a team - and it goes up to as many
 slots as the game has: four normally, **eight with WiderSet**.
 
+> Eight really means eight. Two spots still assumed four: the spawn loop, which left
+> players 5 to 8 without an archer on the pitch, and the charge array, which threw an
+> `IndexOutOfRange` the moment a fifth player touched the ball.
+
 | | |
 |---|---|
 | **Blue** | defends the left goal |
@@ -71,14 +75,38 @@ skeleton of `TeamDeathmatchRoundLogic`, which is what everything else expects.
 A goal at a fixed position would only work on towers with open sides; anywhere else it
 would end up buried in stone, and the ball could never get in.
 
-So the mod **searches** for the spot: from each side it steps 4 pixels inward until it
-finds a rectangle clear of every solid, margin included. At equal distance from the
-edge, the height closest to the middle of the screen wins - a goal at head height can be
-defended, a goal against the ceiling cannot.
+So the position **is not negotiated**: a goal sits at the end of the pitch, at
+mid-height, the two facing each other. Whatever tiles are in the way are **carved out** -
+the cage is cut into the stone, exactly the way a beam punches through a wall in the
+Power mod. A cell is switched off on both sides: in the `Grid`, which carries collisions,
+and in the `bitData`, which carries the drawing, because Monocle's `Grid` constructor
+clones the bit array. Then `ReloadTiles()` re-tiles the map.
 
-Nothing in there knows the geometry of any tower: it all goes through `CollideCheck` on
-the solids, so a tower added by another mod works too. If no spot is clear at all, the
-goal is placed halfway up the edge anyway.
+An earlier version looked for a spot that was already free. The goals ended up wherever
+the tower would let them - at floor level, sometimes at two different heights - and the
+pitch was not symmetric.
+
+**Three cells are cleared in front of the cage**, on the pitch side. The two-pixel margin
+was enough to place the goal, not to reach it: on a tower with a wall running just in
+front, the cage was cut into the stone and still unreachable - a goal you could see but
+neither aim at nor cross. Three, and no more: the pitch has to stay a TowerFall pitch,
+with its walls and its platforms.
+
+### Why the goals are not flush against the edge
+
+They are inset by **one tile**, and the strip behind them is **walled in**.
+
+The screen wraps. A goal flush against the edge turns its own net into a door: leaving on
+the left means coming back on the right, which amounts to walking through the goal. The
+AIs were not cheating - they were using a passage that really existed.
+
+The back wall runs **one cell above and below** the cage: without that, an archer passing
+just over the post would come back on the other side of the screen, and the goal would
+still be a door.
+
+Nothing in there knows the geometry of any tower: it all goes through the tile grid, so a
+tower added by another mod works too, and a level widened by WiderSet places its goals at
+*its* edges without this code knowing.
 
 The **ball** is born midway between the two goals, up high. That point is not always
 empty - a platform, a column - and it used to be born inside the stone: you could not

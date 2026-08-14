@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\__dev\\code\\FR5tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj": {}
+    "D:\\__dev\\code\\tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj": {}
   },
   "projects": {
-    "D:\\__dev\\code\\FR5tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj": {
+    "D:\\__dev\\code\\tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\__dev\\code\\FR5tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj",
+        "projectUniqueName": "D:\\__dev\\code\\tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj",
         "projectName": "TFModFortRiseGameModeSoccer",
-        "projectPath": "D:\\__dev\\code\\FR5tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj",
+        "projectPath": "D:\\__dev\\code\\tf-mod-fortrise-gamemode-soccer\\VSCode\\TFModFortRiseGameModeSoccer.csproj",
         "packagesPath": "C:\\Users\\eric\\.nuget\\packages\\",
-        "outputPath": "D:\\__dev\\code\\FR5tf-mod-fortrise-gamemode-soccer\\VSCode\\obj\\",
+        "outputPath": "D:\\__dev\\code\\tf-mod-fortrise-gamemode-soccer\\VSCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
