@@ -156,6 +156,19 @@ namespace TFModFortRiseGameModeSoccer
       Sweep(level, GameTags.LavaCollider);
       Sweep(level, GameTags.HotCoals);
       Sweep(level, GameTags.TreasureChest);
+
+      // Cobwebs hang on walls and have no tag of their own, so the sweeps above miss them.
+      // With their walls gone, Cobwebs.SceneBegin throws "Cobwebs in invalid position".
+      foreach (Layer layer in level.Layers.Values)
+      {
+        foreach (Entity entity in layer.Entities)
+        {
+          if (entity is Cobwebs)
+          {
+            entity.RemoveSelf();
+          }
+        }
+      }
     }
 
     private static void Sweep(Level level, GameTags tag)
